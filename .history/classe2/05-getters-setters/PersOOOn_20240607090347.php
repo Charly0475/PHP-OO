@@ -40,11 +40,7 @@ class PersOOOn {
             // on va utiliser les setters pour remplir les paramètres
             $this->setEspecePerso($species2);
             // setter pour le nom
-            
             $this->setNomPerso($name);
-            $this->setXpPerso(0);
-            $this->setHpPerso(1000);
-
         }
 
         /*
@@ -87,18 +83,8 @@ class PersOOOn {
         }
 
         // setter de $xpPerso (int positif)
-        public function setXpPerso(int $xpPerso): void
-        {
-                if($xpPerso<0)
-                {
-                    throw new Exception("Seul un int positif est autorisé, 336");
-                }
-                $this  -> xpPerso = $xpPerso;
-        }
 
         // setter de $hpPerso (bool pour false ou un int)
-
-        public function setHpPerso
 
 
         /*
